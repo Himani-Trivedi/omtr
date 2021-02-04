@@ -76,11 +76,33 @@ font-weight: bold;
 cursor: default;
 }
 
-.movie{border: 2px solid black;
-padding: 30px;
-align-items: center;
-padding-left: 60px;}
+.shows{  margin: auto 40px;
+border: 0.6em solid #e1695c;
+}
 
-iframe{width: 290px;
-height: 400px;
+.shows img{height: 370px;
+width: 270px;
+padding: 30px;
+position: relative;
+left: 47px;
+opacity: 0.5;}
+
+.shows img:hover{transition: cubic-bezier(1, 0, 0, 1);
+    opacity: 1;
+}
+
+.head{position: relative;
+left: 30px;
+font-size:29px;
+font-weight: bold;}
+
+.end{height: 100px;
+margin-top: 190px;
+background-color: #e1695c;
+text-align: center;
+}
+
+#copy{position: relative;
+top: 30px;
+font-size: 28px;
 }
