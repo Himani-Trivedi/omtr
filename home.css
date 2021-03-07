@@ -76,21 +76,6 @@ font-weight: bold;
 cursor: default;
 }
 
-.shows{  margin: auto 40px;
-border: 0.6em solid #e1695c;
-}
-
-.shows img{height: 370px;
-width: 270px;
-padding: 30px;
-position: relative;
-left: 47px;
-opacity: 0.5;}
-
-.shows img:hover{transition: cubic-bezier(1, 0, 0, 1);
-    opacity: 1;
-}
-
 .head{position: relative;
 left: 30px;
 font-size:29px;
@@ -101,6 +86,43 @@ margin-top: 190px;
 background-color: #e1695c;
 text-align: center;
 }
+
+.shows{
+    border: 2px solid #e1695c;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie{
+    width: 260px;
+    margin: 10px;
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 3px 3px #e1695c;
+}
+
+.movie:hover{
+    transform: scaleY(1.5);
+}
+
+.name{background-color: rgba(255, 255, 255, 0.404);
+width: 100%;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-family: 'RocknRoll One', sans-serif;
+text-shadow: 2px  2px white;
+}
+
+#m1{ background-image: url('friends.jpg');}
+#m2{ background-image: url('breate.jpg');}
+#m3{ background-image: url('dil.jpg');}
+#m4{ background-image: url('yjhd.jpg');}
 
 #copy{position: relative;
 top: 30px;
